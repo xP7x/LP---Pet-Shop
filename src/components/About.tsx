@@ -20,8 +20,8 @@ export default function About() {
           <div className="relative h-[600px] md:h-[800px] w-full mt-10 md:mt-0 rounded-[2.5rem]">
             <motion.div style={{ y: imgY }} className="absolute inset-x-0 -top-[10%] -bottom-[10%] w-full rounded-[2.5rem] overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1628009368231-7bb7cbcb8127?q=80&w=2070&auto=format&fit=crop" 
-                alt="Veterinary consultation"
+                src="https://images.unsplash.com/photo-1495360010541-f48722b34f7d?q=80&w=1000&auto=format&fit=crop" 
+                alt="Cat in focus"
                 className="w-full h-full object-cover"
               />
             </motion.div>

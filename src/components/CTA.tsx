@@ -54,6 +54,7 @@ export default function CTA() {
                 Vagas limitadas esta semana
               </div>
             </div>
+
           </div>
 
           <motion.div 

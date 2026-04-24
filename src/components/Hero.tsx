@@ -15,7 +15,7 @@ export default function Hero() {
   const words = "Cuidado que transforma vidas.".split(" ");
 
   return (
-    <section ref={containerRef} className="relative h-screen flex flex-col justify-center overflow-hidden bg-[#F7F9FC]">
+    <section ref={containerRef} className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#F7F9FC] pb-24">
       {/* Background radial gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#eef7f2] to-[#F7F9FC] opacity-90" />
       
@@ -28,7 +28,7 @@ export default function Hero() {
         />
       </motion.div>
 
-      <div className="relative z-10 container mx-auto px-6 lg:px-24">
+      <div className="relative z-10 container mx-auto px-6 lg:px-24 pt-24 md:pt-32">
         <div className="max-w-4xl">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
